@@ -61,6 +61,7 @@ public class SystemWebChromeClient extends WebChromeClient {
 
     // the video progress view
     private View mVideoProgressView;
+    private Uri photoUri;
 
     private CordovaDialogsHelper dialogsHelper;
     private Context appContext;
